@@ -37,3 +37,12 @@ let x13 = undefined + 1 // NAN тип данных number, происходит 
 let x14 = " \t \n" - 2 // -2 тип данных number \t \n = 0 
 
 console.log(x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14)
+
+// Исправьте сложение
+
+let A = +prompt("Первое число?", 1);
+
+let B = +prompt("Второе число?", 2);
+
+// alert(A + B); // преобразуем тип данных string в number с помощью "+"перед переменной
+alert(+A + +B);
